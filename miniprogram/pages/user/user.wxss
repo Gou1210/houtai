@@ -1,0 +1,14 @@
+.export{
+  width: 150rpx;
+  background-color:red;
+  text-align: center;
+  border-radius: 5rpx;
+  color: #fff;
+}
+.dingdan{
+  text-align: center;
+}
+.content{
+  border: 2rpx solid #666;
+  margin-top: 20rpx;
+}

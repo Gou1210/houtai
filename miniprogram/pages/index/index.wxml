@@ -1,0 +1,3 @@
+<view bindtap="picTap">
+获取
+</view>

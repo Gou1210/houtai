@@ -1,0 +1,15 @@
+
+<view class="section">
+  <picker mode="date" value="{{sdate}}" start="2010-09-01" end="2050-09-01" bindchange="bindSDateChange" >
+    <view class="picker">
+      请选择开始查询日期  {{sdate}}
+    </view>
+  </picker>
+    <picker mode="date" value="{{edate}}" start="2010-09-01" end="2050-09-01" bindchange="bindEDateChange">
+     <view class="picker">
+     请选择结束查询日期 {{edate}}
+    </view>
+  </picker>
+</view>
+<view><button   bindtap="queryUser" class="info">订单信息查询</button></view>
+

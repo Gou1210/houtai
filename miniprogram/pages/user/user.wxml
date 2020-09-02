@@ -1,0 +1,23 @@
+<!-- <view bindtap="dianji">点击</view> -->
+<text class="dingdan">订单信息查询</text>
+<view bindtap="export" class="export">导出信息</view>
+<block  wx:for="{{list}}" wx:key="*this"  >
+<view class="content" >
+<view >电话：{{item.moblie}}</view>
+<view >时间：{{item.date}}</view>
+<view >型号：{{item.title}}</view>
+<view >高度：{{item.height}}米</view>
+<view >左宽：{{item.width1}}米</view>
+<view >中宽：{{item.width0}}米</view>
+<view >右宽：{{item.width2}}米</view>
+<view >面积：{{item.square}}平方米</view>
+<view >数量：{{item.num}}个</view>
+<view >配件价格：{{item.partsPriceSumCon}}元</view>
+<view >标配价格：{{item.standardPriceSum}}元</view>
+<view >一单价格：{{item.standardParts}}元</view>
+<view >总价格：{{item.totalPrice}}元</view>
+<view >满减卷：{{item.juanGai}}元</view>
+<view >优惠价格：{{item.zhekou}}元</view>
+</view>
+
+</block>
